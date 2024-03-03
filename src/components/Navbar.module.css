@@ -2,11 +2,23 @@
     background-color: #ffffff;
     color: #000000;
     display: flex;
-    justify-content: space-evenly;
     width: 100%;
 }
 
-.navbar img {
+.main-images-container, .right-container-nav {
+    display: inherit;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.main-images-container img {
     width: 200px;
     height: 100px;
+    margin: 10px;
+}
+
+.right-container-nav img {
+    width: 400px;
+    height: 100px;
+    margin: 10px;
 }
