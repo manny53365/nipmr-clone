@@ -1,3 +1,12 @@
 .navbar {
     background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.navbar img {
+    width: 200px;
+    height: 100px;
 }
