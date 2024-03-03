@@ -2,9 +2,10 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 10px;
 }
 
-.happening, .contact {
+.happening, .events, .contact {
     display: inherit;
     flex-direction: column;
     padding: 10px;

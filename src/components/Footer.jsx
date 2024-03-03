@@ -17,8 +17,11 @@ export default function Footer() {
             <Link to='/gallery'>Gallery</Link>
             <Link to='/careers'>Careers</Link>
         </div>
-        <div>
+        <div className={styles.events}>
             <h2>Events/News</h2>
+            <div className={styles["event-item"]}>1</div>
+            <div className={styles["event-item"]}>2</div>
+            <div className={styles["event-item"]}>3</div>
         </div>
         <div className={styles.contact}>
             <h2>Contact Us</h2>
