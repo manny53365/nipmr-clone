@@ -1,5 +1,7 @@
 // library imports
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faFacebook, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 // styles imports
 import styles from './Footer.module.css';
@@ -32,10 +34,22 @@ export default function Footer() {
             </p>
             <h3>Connect with us on Social Media</h3>
             <div className={styles['social-links']}>
-                <Link>FB</Link>
-                <Link>Insta</Link>
-                <Link>LinkedIn</Link>
-                <Link>YouTube</Link>
+                <Link
+                to='https://www.facebook.com/NIPMRINDIA'
+                target='_blank' 
+                rel='noopener noreferrer'><FontAwesomeIcon icon={faFacebook} /></Link>
+                <Link
+                to='https://www.instagram.com/nipmr_thrissur?igsh=ZGN3cWMxdGVuZGFm'
+                target='_blank' 
+                rel='noopener noreferrer'><FontAwesomeIcon icon={faInstagram} /></Link>
+                <Link
+                to='https://www.linkedin.com/company/nipmr/about/'
+                target='_blank' 
+                rel='noopener noreferrer'><FontAwesomeIcon icon={faLinkedin} /></Link>
+                <Link
+                to='https://www.youtube.com/channel/UCju7Z4Js4QZSvNmYRKZcRog'
+                target='_blank' 
+                rel='noopener noreferrer'><FontAwesomeIcon icon={faYoutube} /></Link>
             </div>
         </div>
         <div>
