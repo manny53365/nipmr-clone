@@ -56,7 +56,7 @@ export default function Footer() {
             </div>
         </div>
         <div className={styles.copyright}>
-            &copy; NIPMR {new Date().getFullYear()} All Rights Reserved
+            <p>&copy; NIPMR {new Date().getFullYear()} All Rights Reserved</p>
         </div>
     </div>
   )
