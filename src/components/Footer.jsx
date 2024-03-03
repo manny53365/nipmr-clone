@@ -55,8 +55,8 @@ export default function Footer() {
                 rel='noopener noreferrer'><FontAwesomeIcon icon={faYoutube} /></Link>
             </div>
         </div>
-        <div>
-            <h2>4</h2>
+        <div className={styles.copyright}>
+            &copy; NIPMR {new Date().getFullYear()} All Rights Reserved
         </div>
     </div>
   )

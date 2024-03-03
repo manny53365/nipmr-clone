@@ -29,3 +29,9 @@
     text-decoration: none;
     padding: 10px;
 }
+
+.copyright {
+    margin: 10px 0;
+    width: 100%;
+    text-align: center;
+}
