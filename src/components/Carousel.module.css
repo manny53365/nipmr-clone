@@ -1,0 +1,25 @@
+.carousel {
+    display: flex;
+    flex-direction: column;
+}
+
+.carousel-img {
+    width: 80%;
+    height: 250px;
+    margin: 0 10%;
+}
+
+.btn-controller {
+    display: inherit;
+    flex-direction: row;
+    padding-top: 1%;
+    justify-content: space-evenly;
+}
+
+.btn-controller .btn {
+    width: 30%;
+    height: 30px;
+    margin: 2%;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
