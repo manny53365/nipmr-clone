@@ -1,6 +1,7 @@
 // Page or component imports
 import Carousel from '../../components/Carousel';
 import Doctors from '../../components/Doctors';
+import HomeNavigation from '../../components/HomeNavigation';
 
 // Style imports
 import styles from './Home.module.css';
@@ -52,6 +53,9 @@ export default function Home() {
             <div className={styles['right-main']}>
                 <Doctors doctors={othDoctors}/>
             </div>
+        </div>
+        <div className={styles['nav-btns']}>
+            <HomeNavigation />
         </div>
     </div>
   )

@@ -1,5 +1,6 @@
 .home-container {
     display: flex;
+    flex-direction: column;
     background: transparent linear-gradient(180deg, rgba(122, 1, 246, 1) 0%, rgba(129, 8, 244, 1) 54%, rgba(142, 21, 241, 1) 100%) 0% 0% no-repeat padding-box;
     width: 100%;
     padding: 10px 0;
@@ -19,4 +20,10 @@
 .right-main {
     display: inherit;
     width: 80%;
+}
+
+.nav-btns {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
