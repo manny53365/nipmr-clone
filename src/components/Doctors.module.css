@@ -1,0 +1,18 @@
+.doctors {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.doctor {
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.doctors img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
