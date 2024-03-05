@@ -15,14 +15,6 @@ export default function HomeNavigation() {
         <Link to='/spine-injury'>Spinal Cord Injury</Link>
         <Link to='/checkout'>Purchase and Tenders</Link>
         <Link to='/careers'>Careers</Link>
-        {/* <button>Services</button> */}
-        {/* <button>Professional</button>
-        <button>Academics</button>
-        <button>Research & Publications</button>
-        <button>Treatment Enquiry</button>
-        <button>Spinal Cord Injury</button>
-        <button>Purchase and Tenders</button>
-        <button>Careers</button> */}
     </div>
   )
 }
