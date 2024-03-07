@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './Services.module.css';
 
 export default function Services() {
@@ -6,58 +7,58 @@ export default function Services() {
         <h1>For Parents/Patients</h1>
         <div className={styles['services-container']}>
             <div className={styles['service-item']}>
-                <h4>Physical Medicine & Rehabilitation</h4>
+                <Link to='/physical-medicine'>Physical Medicine & Rehabilitation</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Developmental and Behavioural Pediatrics</h4>
+                <Link to='/developmental-and-behavioural-pediatrics'>Developmental and Behavioural Pediatrics</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Physiotherapy</h4>
+                <Link to='/physiotherapy'>Physiotherapy</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Occupational Therapy</h4>
+                <Link to='/occupational-therapy'>Occupational Therapy</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Audiology & Speech Language Pathology</h4>
+                <Link to='/audiology'>Audiology & Speech Language Pathology</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Developmental Therapy</h4>
+                <Link to='/developmental-therapy'>Developmental Therapy</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Clinical Psychology</h4>
+                <Link to='/clinical-psychology'>Clinical Psychology</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Dental Care</h4>
+                <Link to='/dental'>Dental Care</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Social Work</h4>
+                <Link to='/social-work'>Social Work</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Nutrition & Dietetics</h4>
+                <Link to='/nutrition-dietetics'>Nutrition & Dietetics</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>P&O Assistive Technology</h4>
+                <Link to='/p-o-assistive'>P&O Assistive Technology</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>RARRC - School for children with Autism</h4>
+                <Link to='/rarrc'>RARRC - School for children with Autism</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>CPRRC - Special Transition school for CP</h4>
+                <Link to='/cprrc'>CPRRC - Special Transition school for CP</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Aquatic Rehabilitation Center</h4>
+                <Link to='/hydrotherapy'>Aquatic Rehabilitation Center</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Virtual Rehabilitation Unit</h4>
+                <Link to='/virtual-reality'>Virtual Rehabilitation Unit</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>GAIT & Motion Analysis Lab</h4>
+                <Link to='/gait-and-motion'>GAIT & Motion Analysis Lab</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Simulation Kitchen & ADL Room</h4>
+                <Link to='/simulation-kitchen'>Simulation Kitchen & ADL Room</Link>
             </div>
             <div className={styles['service-item']}>
-                <h4>Vocational Education</h4>
+                <Link to='/vocational-education'>Vocational Education</Link>
             </div>
         </div>
     </div>
