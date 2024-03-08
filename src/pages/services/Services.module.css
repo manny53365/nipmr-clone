@@ -19,6 +19,9 @@
     width: 25%;
     text-align: center;
     font-size: 1.25rem;
+    border: 1px solid #6f42c1;
+    border-radius: 10px;
+    margin: 10px;
 }
 
 .service-item a {
@@ -34,7 +37,7 @@
 
 .service-item img {
     height: 100px;
-    width: 90%;
+    width: 95%;
     border-radius: 10px;
     margin: 10px;
 }
