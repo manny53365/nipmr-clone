@@ -1,0 +1,43 @@
+.services {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.services h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    width: 25%;
+    text-align: center;
+    font-size: 1.25rem;
+    border: 1px solid #6f42c1;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.service-item a {
+    display: inherit;
+    text-decoration: none;
+    color: #000000;
+}
+
+.service-item a:hover {
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+.service-item img {
+    height: 100px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+}
