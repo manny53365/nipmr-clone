@@ -27,8 +27,14 @@
     color: #000000;
 }
 
+.service-item a:hover {
+    color: #6f42c1;
+    font-weight: bold;
+}
+
 .service-item img {
     height: 100px;
     width: 90%;
     border-radius: 10px;
+    margin: 10px;
 }
