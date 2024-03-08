@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 // style imports
 import styles from './Professional.module.css';
 
-export default function ServiceItem({ hoveredItem , profession, handleMouseOut, handleMouseOver }) {
+export default function ProfessionalItem({ hoveredItem , profession, handleMouseOut, handleMouseOver }) {
   return (
     <div className={styles['profession-item']} onMouseOver={handleMouseOver} onMouseLeave={handleMouseOut} >
         <img src={hoveredItem === profession.path ? profession.hoveredImg : profession.defaultImg} alt="image" />
@@ -14,7 +14,7 @@ export default function ServiceItem({ hoveredItem , profession, handleMouseOut, 
   )
 }
 
-ServiceItem.propTypes = {
+ProfessionalItem.propTypes = {
     profession: PropTypes.object,
     handleMouseOut: PropTypes.func,
     handleMouseOver: PropTypes.func,
