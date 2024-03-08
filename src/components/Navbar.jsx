@@ -7,12 +7,13 @@ import kerala_govt_logo from '../assets/kerala_govt.png';
 
 // styles
 import styles from './Navbar.module.css';
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
         <div className={styles['main-images-container']}>
-            <img src={nipmr_logo} alt="nipmr" />
+            <Link to={'/'}><img src={nipmr_logo} alt="nipmr" /></Link>
             <img src={soc_logo} alt="soc" />
             <img src={kerala_govt_logo} alt="Kerala Government" />
         </div>
