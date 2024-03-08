@@ -1,0 +1,43 @@
+.academic {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.academic h1 {
+    margin: 0;
+    padding: 10px;
+}
+
+.academic-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.academic-item {
+    width: 25%;
+    text-align: center;
+    font-size: 1.25rem;
+    border: 1px solid #6f42c1;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.academic-item a {
+    display: inherit;
+    text-decoration: none;
+    color: #000000;
+}
+
+.academic-item a:hover {
+    color: #6f42c1;
+    font-weight: bold;
+}
+
+.academic-item img {
+    height: 100px;
+    width: 95%;
+    border-radius: 10px;
+    margin: 10px;
+}
