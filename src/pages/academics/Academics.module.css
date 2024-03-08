@@ -1,3 +1,28 @@
+.anti-ragging-container {
+    display: flex;
+    width: 100%;
+}
+
+.anti-ragging-container h1 {
+    width: 80%;
+}
+
+.anti-ragging-info {
+    display: inherit;
+    width: 20%;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid #6f42c1;
+    border-radius: 10px;
+}
+
+.anti-ragging-info a {
+    margin: 5px;
+    text-decoration: none;
+    color: #02c3f8;
+}
+
 .academic {
     background-color: #ffffff;
     color: #000000;
