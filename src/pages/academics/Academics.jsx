@@ -4,6 +4,7 @@ import { useState } from 'react';
 // style imports
 import styles from './Academics.module.css';
 import AcademicItem from './AcademicItem';
+import { Link } from 'react-router-dom';
 
 export default function Academics() {
 
@@ -46,7 +47,17 @@ export default function Academics() {
 
   return (
     <div className={styles.academic}>
-        <h1>Bachelors and Diploma courses</h1>
+        <div className={styles['anti-ragging-container']}>
+            <h1>Bachelors and Diploma courses</h1>
+            <div className={styles['anti-ragging-info']}>
+                <h4>ANTI RAGGING INFORMATION</h4>
+                <Link to='/anti-ragging'>Anti ragging info (UGC)</Link>
+                <Link to='/anti-ragging'>Anti ragging ordinance</Link>
+                <Link to='/anti-ragging'>Anti ragging policy</Link>
+                <Link to='/anti-ragging'>Toll free number</Link>
+                <Link to={'https://firebasestorage.googleapis.com/v0/b/nipmr-app.appspot.com/o/anti-ragging-doc%2Fsexual-harrassment-of-women-act-and-rules-2013.pdf?alt=media&token=31a8e27d-176a-4586-b13d-fb3ce7f371a9'} target='_blank'>Sexual harrassment of women: Act and rules, 2013</Link>
+            </div>
+        </div>
         <div className={styles['academic-container']}>
             {programs.map(program => (
                 <AcademicItem hoveredItem={hoveredItem} key={program.path} edu={program} handleMouseOut={handleMouseOut} handleMouseOver={() => handleMouseOver(program.path)}/>
