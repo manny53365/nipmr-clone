@@ -26,3 +26,9 @@
     text-decoration: none;
     color: #000000;
 }
+
+.service-item img {
+    height: 100px;
+    width: 90%;
+    border-radius: 10px;
+}
