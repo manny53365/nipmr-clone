@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/home/Home';
 import Services from './pages/services/Services';
+import Professional from './pages/professional/Professional';
 
 // styles
 import './App.css';
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/services' element={<Services />}/>
+          <Route path='/professional' element={<Professional/>}/>
         </Routes>
         <Footer />
       </BrowserRouter>
