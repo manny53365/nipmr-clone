@@ -10,6 +10,7 @@ import Professional from './pages/professional/Professional';
 
 // styles
 import './App.css';
+import Academics from './pages/academics/Academics';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/' element={<Home />}/>
           <Route path='/services' element={<Services />}/>
           <Route path='/professional' element={<Professional/>}/>
+          <Route path='/academics' element={<Academics />}/>
         </Routes>
         <Footer />
       </BrowserRouter>
